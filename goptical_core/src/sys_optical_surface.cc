@@ -236,6 +236,7 @@ namespace _Goptical {
         }
 
       // reflect
+      if (next_mat->is_reflecting())
       {
         double rintensity = intensity * next_mat->get_normal_reflectance(prev_mat, wl);
 
