@@ -19,7 +19,7 @@ lib_LTLIBRARIES = libgoptical.la
 
 libgoptical_la_SOURCES = curve_array.cc curve_base.cc curve_composer.cc      \
 	curve_conic_base.cc curve_conic.cc curve_flat.cc                \
-	curve_foucault.cc curve_grid.cc curve_parabola.cc               \
+	curve_foucault.cc curve_grid.cc curve_parabola.cc curve_convex_quartic.cc   \
 	curve_polynomial.cc curve_rotational.cc curve_sphere.cc         \
 	curve_spline.cc curve_zernike.cc data_discrete_set.cc           \
 	data_grid.cc data_plot.cc data_sample_set.cc data_set1d.cc      \
