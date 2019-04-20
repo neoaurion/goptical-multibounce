@@ -39,6 +39,7 @@ test_2d_plot.o: test_2d_plot.cc /usr/include/stdc-predef.h ../config.hh \
  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
+ /usr/include/x86_64-linux-gnu/bits/wchar2.h \
  /usr/include/c++/5/bits/allocator.h \
  /usr/include/x86_64-linux-gnu/c++/5/bits/c++allocator.h \
  /usr/include/c++/5/ext/new_allocator.h /usr/include/c++/5/new \
@@ -108,12 +109,15 @@ test_2d_plot.o: test_2d_plot.cc /usr/include/stdc-predef.h ../config.hh \
  /usr/include/x86_64-linux-gnu/bits/select.h \
  /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
+ /usr/include/x86_64-linux-gnu/bits/select2.h \
  /usr/include/x86_64-linux-gnu/sys/sysmacros.h \
  /usr/include/x86_64-linux-gnu/bits/sysmacros.h /usr/include/alloca.h \
+ /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
- /usr/include/c++/5/typeinfo ../src/Goptical/delegate \
- /usr/include/c++/5/iostream /usr/include/c++/5/ostream \
- /usr/include/c++/5/ios /usr/include/c++/5/bits/ios_base.h \
+ /usr/include/x86_64-linux-gnu/bits/stdlib.h /usr/include/c++/5/typeinfo \
+ ../src/Goptical/delegate /usr/include/c++/5/iostream \
+ /usr/include/c++/5/ostream /usr/include/c++/5/ios \
+ /usr/include/c++/5/bits/ios_base.h \
  /usr/include/c++/5/bits/locale_classes.h \
  /usr/include/c++/5/bits/locale_classes.tcc /usr/include/c++/5/streambuf \
  /usr/include/c++/5/bits/streambuf.tcc \
@@ -130,7 +134,9 @@ test_2d_plot.o: test_2d_plot.cc /usr/include/stdc-predef.h ../config.hh \
  /usr/include/stdio.h /usr/include/x86_64-linux-gnu/bits/libio.h \
  /usr/include/x86_64-linux-gnu/bits/_G_config.h \
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
- /usr/include/x86_64-linux-gnu/bits/sys_errlist.h ../src/Goptical/vlarray \
+ /usr/include/x86_64-linux-gnu/bits/sys_errlist.h \
+ /usr/include/x86_64-linux-gnu/bits/stdio.h \
+ /usr/include/x86_64-linux-gnu/bits/stdio2.h ../src/Goptical/vlarray \
  /usr/lib/gcc/x86_64-linux-gnu/5/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h /usr/include/math.h \
  /usr/include/x86_64-linux-gnu/bits/math-vector.h \
@@ -141,6 +147,7 @@ test_2d_plot.o: test_2d_plot.cc /usr/include/stdc-predef.h ../config.hh \
  /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
  /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
  /usr/include/x86_64-linux-gnu/bits/iscanonical.h \
+ /usr/include/x86_64-linux-gnu/bits/mathinline.h \
  ../src/Goptical/Math/vector.hh ../src/Goptical/Math/triangle.hh \
  ../src/Goptical/Math/vector_pair.hh ../src/Goptical/error.hh \
  ../src/Goptical/Io/rgb.hh ../src/Goptical/Io/renderer.hxx \
@@ -161,18 +168,15 @@ test_2d_plot.o: test_2d_plot.cc /usr/include/stdc-predef.h ../config.hh \
  ../src/Goptical/Io/renderer_svg.hh /usr/include/c++/5/sstream \
  /usr/include/c++/5/bits/sstream.tcc ../src/Goptical/Io/renderer_2d.hh \
  ../src/Goptical/Io/renderer_svg.hxx ../src/Goptical/Io/renderer_2d.hxx \
- ../src/Goptical/Io/RendererGd ../src/Goptical/Io/renderer_gd.hh \
- /usr/include/gd.h /usr/include/gd_io.h /usr/include/gdfx.h \
- /usr/include/gdfontl.h /usr/include/gd.h \
- ../src/Goptical/Io/renderer_gd.hxx ../src/Goptical/Io/RendererX11 \
- ../src/Goptical/Io/renderer_x11.hh /usr/include/X11/Xlib.h \
- /usr/include/X11/X.h /usr/include/X11/Xfuncproto.h \
- /usr/include/X11/Xosdefs.h ../src/Goptical/Io/renderer_x11.hxx \
- ../src/Goptical/Math/Vector ../src/Goptical/Math/VectorPair \
- ../src/Goptical/Data/Plot ../src/Goptical/Data/plot.hh \
- ../src/Goptical/Data/plotdata.hh ../src/Goptical/Data/set.hh \
- ../src/Goptical/Data/plot.hxx ../src/Goptical/Data/DiscreteSet \
- ../src/Goptical/Data/discrete_set.hh ../src/Goptical/Data/set1d.hh \
+ ../src/Goptical/Io/RendererX11 ../src/Goptical/Io/renderer_x11.hh \
+ /usr/include/X11/Xlib.h /usr/include/X11/X.h \
+ /usr/include/X11/Xfuncproto.h /usr/include/X11/Xosdefs.h \
+ ../src/Goptical/Io/renderer_x11.hxx ../src/Goptical/Math/Vector \
+ ../src/Goptical/Math/VectorPair ../src/Goptical/Data/Plot \
+ ../src/Goptical/Data/plot.hh ../src/Goptical/Data/plotdata.hh \
+ ../src/Goptical/Data/set.hh ../src/Goptical/Data/plot.hxx \
+ ../src/Goptical/Data/DiscreteSet ../src/Goptical/Data/discrete_set.hh \
+ ../src/Goptical/Data/set1d.hh \
  ../src/Goptical/Data/data_interpolate_1d.hh \
  ../src/Goptical/Data/discrete_set.hxx ../src/Goptical/Data/set1d.hxx \
  ../src/Goptical/Data/set.hxx \
@@ -183,7 +187,8 @@ test_2d_plot.o: test_2d_plot.cc /usr/include/stdc-predef.h ../config.hh \
  /usr/include/x86_64-linux-gnu/bits/environments.h \
  /usr/include/x86_64-linux-gnu/bits/confname.h \
  /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
- /usr/include/x86_64-linux-gnu/bits/getopt_core.h
+ /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
+ /usr/include/x86_64-linux-gnu/bits/unistd.h
 
 /usr/include/stdc-predef.h:
 
@@ -280,6 +285,8 @@ test_2d_plot.o: test_2d_plot.cc /usr/include/stdc-predef.h ../config.hh \
 /usr/include/x86_64-linux-gnu/bits/types/locale_t.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/wchar2.h:
 
 /usr/include/c++/5/bits/allocator.h:
 
@@ -457,13 +464,19 @@ test_2d_plot.o: test_2d_plot.cc /usr/include/stdc-predef.h ../config.hh \
 
 /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h:
 
+/usr/include/x86_64-linux-gnu/bits/select2.h:
+
 /usr/include/x86_64-linux-gnu/sys/sysmacros.h:
 
 /usr/include/x86_64-linux-gnu/bits/sysmacros.h:
 
 /usr/include/alloca.h:
 
+/usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h:
+
 /usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdlib.h:
 
 /usr/include/c++/5/typeinfo:
 
@@ -523,6 +536,10 @@ test_2d_plot.o: test_2d_plot.cc /usr/include/stdc-predef.h ../config.hh \
 
 /usr/include/x86_64-linux-gnu/bits/sys_errlist.h:
 
+/usr/include/x86_64-linux-gnu/bits/stdio.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:
+
 ../src/Goptical/vlarray:
 
 /usr/lib/gcc/x86_64-linux-gnu/5/include/stdint.h:
@@ -548,6 +565,8 @@ test_2d_plot.o: test_2d_plot.cc /usr/include/stdc-predef.h ../config.hh \
 /usr/include/x86_64-linux-gnu/bits/mathcalls.h:
 
 /usr/include/x86_64-linux-gnu/bits/iscanonical.h:
+
+/usr/include/x86_64-linux-gnu/bits/mathinline.h:
 
 ../src/Goptical/Math/vector.hh:
 
@@ -621,22 +640,6 @@ test_2d_plot.o: test_2d_plot.cc /usr/include/stdc-predef.h ../config.hh \
 
 ../src/Goptical/Io/renderer_2d.hxx:
 
-../src/Goptical/Io/RendererGd:
-
-../src/Goptical/Io/renderer_gd.hh:
-
-/usr/include/gd.h:
-
-/usr/include/gd_io.h:
-
-/usr/include/gdfx.h:
-
-/usr/include/gdfontl.h:
-
-/usr/include/gd.h:
-
-../src/Goptical/Io/renderer_gd.hxx:
-
 ../src/Goptical/Io/RendererX11:
 
 ../src/Goptical/Io/renderer_x11.hh:
@@ -698,3 +701,5 @@ test_2d_plot.o: test_2d_plot.cc /usr/include/stdc-predef.h ../config.hh \
 /usr/include/x86_64-linux-gnu/bits/getopt_posix.h:
 
 /usr/include/x86_64-linux-gnu/bits/getopt_core.h:
+
+/usr/include/x86_64-linux-gnu/bits/unistd.h:

@@ -26,7 +26,7 @@ libgoptical_la-io_renderer_opengl.lo: io_renderer_opengl.cc \
  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
- /usr/include/c++/5/exception \
+ /usr/include/x86_64-linux-gnu/bits/wchar2.h /usr/include/c++/5/exception \
  /usr/include/c++/5/bits/atomic_lockfree_defines.h \
  /usr/include/c++/5/bits/char_traits.h \
  /usr/include/c++/5/bits/stl_algobase.h \
@@ -119,16 +119,20 @@ libgoptical_la-io_renderer_opengl.lo: io_renderer_opengl.cc \
  /usr/include/x86_64-linux-gnu/bits/select.h \
  /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
+ /usr/include/x86_64-linux-gnu/bits/select2.h \
  /usr/include/x86_64-linux-gnu/sys/sysmacros.h \
  /usr/include/x86_64-linux-gnu/bits/sysmacros.h /usr/include/alloca.h \
+ /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
- /usr/include/c++/5/typeinfo Goptical/delegate \
- /usr/include/c++/5/iostream /usr/include/c++/5/istream \
+ /usr/include/x86_64-linux-gnu/bits/stdlib.h /usr/include/c++/5/typeinfo \
+ Goptical/delegate /usr/include/c++/5/iostream /usr/include/c++/5/istream \
  /usr/include/c++/5/bits/istream.tcc Goptical/fstring \
  /usr/include/stdio.h /usr/include/x86_64-linux-gnu/bits/libio.h \
  /usr/include/x86_64-linux-gnu/bits/_G_config.h \
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
- /usr/include/x86_64-linux-gnu/bits/sys_errlist.h Goptical/vlarray \
+ /usr/include/x86_64-linux-gnu/bits/sys_errlist.h \
+ /usr/include/x86_64-linux-gnu/bits/stdio.h \
+ /usr/include/x86_64-linux-gnu/bits/stdio2.h Goptical/vlarray \
  /usr/lib/gcc/x86_64-linux-gnu/5/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h /usr/include/math.h \
  /usr/include/x86_64-linux-gnu/bits/math-vector.h \
@@ -138,17 +142,19 @@ libgoptical_la-io_renderer_opengl.lo: io_renderer_opengl.cc \
  /usr/include/x86_64-linux-gnu/bits/fp-fast.h \
  /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
  /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
- /usr/include/x86_64-linux-gnu/bits/iscanonical.h Goptical/Math/vector.hh \
+ /usr/include/x86_64-linux-gnu/bits/iscanonical.h \
+ /usr/include/x86_64-linux-gnu/bits/mathinline.h Goptical/Math/vector.hh \
  Goptical/Math/triangle.hxx Goptical/Math/vector.hxx \
  Goptical/Math/matrix.hh Goptical/Io/RendererOpengl \
  Goptical/Io/renderer_opengl.hh /usr/include/GL/gl.h \
- /usr/include/GL/glext.h /usr/include/inttypes.h \
- Goptical/Io/renderer_viewport.hh Goptical/Math/transform.hh \
- Goptical/Math/vector_pair.hh Goptical/error.hh \
- Goptical/Math/quaternion.hh Goptical/Io/renderer.hh Goptical/Io/rgb.hh \
- Goptical/Io/renderer_opengl.hxx Goptical/Io/renderer.hxx \
- /usr/include/c++/5/algorithm /usr/include/c++/5/utility \
- /usr/include/c++/5/bits/stl_relops.h /usr/include/c++/5/bits/stl_algo.h \
+ /usr/include/GL/glext.h /usr/include/KHR/khrplatform.h \
+ /usr/include/inttypes.h Goptical/Io/renderer_viewport.hh \
+ Goptical/Math/transform.hh Goptical/Math/vector_pair.hh \
+ Goptical/error.hh Goptical/Math/quaternion.hh Goptical/Io/renderer.hh \
+ Goptical/Io/rgb.hh Goptical/Io/renderer_opengl.hxx \
+ Goptical/Io/renderer.hxx /usr/include/c++/5/algorithm \
+ /usr/include/c++/5/utility /usr/include/c++/5/bits/stl_relops.h \
+ /usr/include/c++/5/bits/stl_algo.h \
  /usr/include/c++/5/bits/algorithmfwd.h \
  /usr/include/c++/5/bits/stl_heap.h Goptical/Math/vector_pair.hxx \
  Goptical/Io/rgb.hxx Goptical/Math/Transform Goptical/Math/transform.hxx \
@@ -220,6 +226,8 @@ Goptical/Math/triangle.hh:
 /usr/include/x86_64-linux-gnu/bits/types/locale_t.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/wchar2.h:
 
 /usr/include/c++/5/exception:
 
@@ -463,13 +471,19 @@ Goptical/ref:
 
 /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h:
 
+/usr/include/x86_64-linux-gnu/bits/select2.h:
+
 /usr/include/x86_64-linux-gnu/sys/sysmacros.h:
 
 /usr/include/x86_64-linux-gnu/bits/sysmacros.h:
 
 /usr/include/alloca.h:
 
+/usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h:
+
 /usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdlib.h:
 
 /usr/include/c++/5/typeinfo:
 
@@ -492,6 +506,10 @@ Goptical/fstring:
 /usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
 
 /usr/include/x86_64-linux-gnu/bits/sys_errlist.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdio.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:
 
 Goptical/vlarray:
 
@@ -519,6 +537,8 @@ Goptical/vlarray:
 
 /usr/include/x86_64-linux-gnu/bits/iscanonical.h:
 
+/usr/include/x86_64-linux-gnu/bits/mathinline.h:
+
 Goptical/Math/vector.hh:
 
 Goptical/Math/triangle.hxx:
@@ -534,6 +554,8 @@ Goptical/Io/renderer_opengl.hh:
 /usr/include/GL/gl.h:
 
 /usr/include/GL/glext.h:
+
+/usr/include/KHR/khrplatform.h:
 
 /usr/include/inttypes.h:
 

@@ -26,7 +26,7 @@ libgoptical_la-io_renderer_x3d.lo: io_renderer_x3d.cc \
  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
- /usr/include/c++/5/exception \
+ /usr/include/x86_64-linux-gnu/bits/wchar2.h /usr/include/c++/5/exception \
  /usr/include/c++/5/bits/atomic_lockfree_defines.h \
  /usr/include/c++/5/bits/char_traits.h \
  /usr/include/c++/5/bits/stl_algobase.h \
@@ -101,6 +101,8 @@ libgoptical_la-io_renderer_x3d.lo: io_renderer_x3d.cc \
  /usr/include/x86_64-linux-gnu/bits/_G_config.h \
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
  /usr/include/x86_64-linux-gnu/bits/sys_errlist.h \
+ /usr/include/x86_64-linux-gnu/bits/stdio.h \
+ /usr/include/x86_64-linux-gnu/bits/stdio2.h \
  /usr/include/x86_64-linux-gnu/c++/5/bits/basic_file.h \
  /usr/include/x86_64-linux-gnu/c++/5/bits/c++io.h \
  /usr/include/c++/5/bits/fstream.tcc Goptical/Io/RendererX3d \
@@ -129,21 +131,24 @@ libgoptical_la-io_renderer_x3d.lo: io_renderer_x3d.cc \
  /usr/include/x86_64-linux-gnu/bits/select.h \
  /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
+ /usr/include/x86_64-linux-gnu/bits/select2.h \
  /usr/include/x86_64-linux-gnu/sys/sysmacros.h \
  /usr/include/x86_64-linux-gnu/bits/sysmacros.h /usr/include/alloca.h \
+ /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
- /usr/include/c++/5/typeinfo Goptical/delegate \
- /usr/include/c++/5/iostream Goptical/fstring Goptical/vlarray \
- /usr/lib/gcc/x86_64-linux-gnu/5/include/stdint.h /usr/include/stdint.h \
- /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h /usr/include/math.h \
- /usr/include/x86_64-linux-gnu/bits/math-vector.h \
+ /usr/include/x86_64-linux-gnu/bits/stdlib.h /usr/include/c++/5/typeinfo \
+ Goptical/delegate /usr/include/c++/5/iostream Goptical/fstring \
+ Goptical/vlarray /usr/lib/gcc/x86_64-linux-gnu/5/include/stdint.h \
+ /usr/include/stdint.h /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
+ /usr/include/math.h /usr/include/x86_64-linux-gnu/bits/math-vector.h \
  /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
  /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h \
  /usr/include/x86_64-linux-gnu/bits/fp-logb.h \
  /usr/include/x86_64-linux-gnu/bits/fp-fast.h \
  /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
  /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
- /usr/include/x86_64-linux-gnu/bits/iscanonical.h Goptical/Io/renderer.hh \
+ /usr/include/x86_64-linux-gnu/bits/iscanonical.h \
+ /usr/include/x86_64-linux-gnu/bits/mathinline.h Goptical/Io/renderer.hh \
  Goptical/Math/vector.hh Goptical/Math/triangle.hh \
  Goptical/Math/vector_pair.hh Goptical/error.hh Goptical/Io/rgb.hh \
  Goptical/Io/renderer_x3d.hxx Goptical/Io/renderer.hxx \
@@ -218,6 +223,8 @@ libgoptical_la-io_renderer_x3d.lo: io_renderer_x3d.cc \
 /usr/include/x86_64-linux-gnu/bits/types/locale_t.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/wchar2.h:
 
 /usr/include/c++/5/exception:
 
@@ -407,6 +414,10 @@ libgoptical_la-io_renderer_x3d.lo: io_renderer_x3d.cc \
 
 /usr/include/x86_64-linux-gnu/bits/sys_errlist.h:
 
+/usr/include/x86_64-linux-gnu/bits/stdio.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:
+
 /usr/include/x86_64-linux-gnu/c++/5/bits/basic_file.h:
 
 /usr/include/x86_64-linux-gnu/c++/5/bits/c++io.h:
@@ -493,13 +504,19 @@ Goptical/ref:
 
 /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h:
 
+/usr/include/x86_64-linux-gnu/bits/select2.h:
+
 /usr/include/x86_64-linux-gnu/sys/sysmacros.h:
 
 /usr/include/x86_64-linux-gnu/bits/sysmacros.h:
 
 /usr/include/alloca.h:
 
+/usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h:
+
 /usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdlib.h:
 
 /usr/include/c++/5/typeinfo:
 
@@ -534,6 +551,8 @@ Goptical/vlarray:
 /usr/include/x86_64-linux-gnu/bits/mathcalls.h:
 
 /usr/include/x86_64-linux-gnu/bits/iscanonical.h:
+
+/usr/include/x86_64-linux-gnu/bits/mathinline.h:
 
 Goptical/Io/renderer.hh:
 

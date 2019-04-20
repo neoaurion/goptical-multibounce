@@ -25,7 +25,7 @@ usercurve-usercurve.o: usercurve.cc /usr/include/stdc-predef.h \
  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
- /usr/include/c++/5/exception \
+ /usr/include/x86_64-linux-gnu/bits/wchar2.h /usr/include/c++/5/exception \
  /usr/include/c++/5/bits/atomic_lockfree_defines.h \
  /usr/include/c++/5/bits/char_traits.h \
  /usr/include/c++/5/bits/stl_algobase.h \
@@ -101,6 +101,8 @@ usercurve-usercurve.o: usercurve.cc /usr/include/stdc-predef.h \
  /usr/include/x86_64-linux-gnu/bits/_G_config.h \
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
  /usr/include/x86_64-linux-gnu/bits/sys_errlist.h \
+ /usr/include/x86_64-linux-gnu/bits/stdio.h \
+ /usr/include/x86_64-linux-gnu/bits/stdio2.h \
  /usr/include/x86_64-linux-gnu/c++/5/bits/basic_file.h \
  /usr/include/x86_64-linux-gnu/c++/5/bits/c++io.h \
  /usr/include/c++/5/bits/fstream.tcc \
@@ -130,10 +132,13 @@ usercurve-usercurve.o: usercurve.cc /usr/include/stdc-predef.h \
  /usr/include/x86_64-linux-gnu/bits/select.h \
  /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
+ /usr/include/x86_64-linux-gnu/bits/select2.h \
  /usr/include/x86_64-linux-gnu/sys/sysmacros.h \
  /usr/include/x86_64-linux-gnu/bits/sysmacros.h /usr/include/alloca.h \
+ /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
- /usr/include/c++/5/typeinfo ../../goptical_core/src/Goptical/delegate \
+ /usr/include/x86_64-linux-gnu/bits/stdlib.h /usr/include/c++/5/typeinfo \
+ ../../goptical_core/src/Goptical/delegate \
  ../../goptical_core/src/Goptical/fstring \
  ../../goptical_core/src/Goptical/vlarray \
  /usr/lib/gcc/x86_64-linux-gnu/5/include/stdint.h /usr/include/stdint.h \
@@ -146,6 +151,7 @@ usercurve-usercurve.o: usercurve.cc /usr/include/stdc-predef.h \
  /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
  /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
  /usr/include/x86_64-linux-gnu/bits/iscanonical.h \
+ /usr/include/x86_64-linux-gnu/bits/mathinline.h \
  ../../goptical_core/src/Goptical/Math/vector.hxx \
  ../../goptical_core/src/Goptical/Math/matrix.hh \
  ../../goptical_core/src/Goptical/Sys/System \
@@ -340,6 +346,8 @@ usercurve-usercurve.o: usercurve.cc /usr/include/stdc-predef.h \
 
 /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
 
+/usr/include/x86_64-linux-gnu/bits/wchar2.h:
+
 /usr/include/c++/5/exception:
 
 /usr/include/c++/5/bits/atomic_lockfree_defines.h:
@@ -530,6 +538,10 @@ usercurve-usercurve.o: usercurve.cc /usr/include/stdc-predef.h \
 
 /usr/include/x86_64-linux-gnu/bits/sys_errlist.h:
 
+/usr/include/x86_64-linux-gnu/bits/stdio.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:
+
 /usr/include/x86_64-linux-gnu/c++/5/bits/basic_file.h:
 
 /usr/include/x86_64-linux-gnu/c++/5/bits/c++io.h:
@@ -610,13 +622,19 @@ usercurve-usercurve.o: usercurve.cc /usr/include/stdc-predef.h \
 
 /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h:
 
+/usr/include/x86_64-linux-gnu/bits/select2.h:
+
 /usr/include/x86_64-linux-gnu/sys/sysmacros.h:
 
 /usr/include/x86_64-linux-gnu/bits/sysmacros.h:
 
 /usr/include/alloca.h:
 
+/usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h:
+
 /usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdlib.h:
 
 /usr/include/c++/5/typeinfo:
 
@@ -649,6 +667,8 @@ usercurve-usercurve.o: usercurve.cc /usr/include/stdc-predef.h \
 /usr/include/x86_64-linux-gnu/bits/mathcalls.h:
 
 /usr/include/x86_64-linux-gnu/bits/iscanonical.h:
+
+/usr/include/x86_64-linux-gnu/bits/mathinline.h:
 
 ../../goptical_core/src/Goptical/Math/vector.hxx:
 

@@ -1,6 +1,6 @@
 test_cassegrain.o: test_cassegrain.cc /usr/include/stdc-predef.h \
- /home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Math/Vector \
- /home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Math/vector.hh \
+ /home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Math/Vector \
+ /home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Math/vector.hh \
  /usr/include/c++/5/ostream /usr/include/c++/5/ios \
  /usr/include/c++/5/iosfwd \
  /usr/include/x86_64-linux-gnu/c++/5/bits/c++config.h \
@@ -27,7 +27,7 @@ test_cassegrain.o: test_cassegrain.cc /usr/include/stdc-predef.h \
  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
- /usr/include/c++/5/exception \
+ /usr/include/x86_64-linux-gnu/bits/wchar2.h /usr/include/c++/5/exception \
  /usr/include/c++/5/bits/atomic_lockfree_defines.h \
  /usr/include/c++/5/bits/char_traits.h \
  /usr/include/c++/5/bits/stl_algobase.h \
@@ -97,7 +97,7 @@ test_cassegrain.o: test_cassegrain.cc /usr/include/stdc-predef.h \
  /usr/include/c++/5/bits/locale_facets.tcc \
  /usr/include/c++/5/bits/basic_ios.tcc \
  /usr/include/c++/5/bits/ostream.tcc \
- /home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/common.hh \
+ /home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/common.hh \
  /usr/include/c++/5/list /usr/include/c++/5/bits/stl_list.h \
  /usr/include/c++/5/bits/list.tcc /usr/include/c++/5/map \
  /usr/include/c++/5/bits/stl_tree.h /usr/include/c++/5/bits/stl_map.h \
@@ -108,11 +108,11 @@ test_cassegrain.o: test_cassegrain.cc /usr/include/stdc-predef.h \
  /usr/include/c++/5/bits/stl_bvector.h /usr/include/c++/5/bits/vector.tcc \
  /usr/include/c++/5/deque /usr/include/c++/5/bits/stl_deque.h \
  /usr/include/c++/5/bits/deque.tcc \
- /home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/vector_pool \
+ /home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/vector_pool \
  /usr/include/c++/5/memory /usr/include/c++/5/bits/stl_tempbuf.h \
  /usr/include/c++/5/bits/stl_raw_storage_iter.h \
  /usr/include/c++/5/backward/auto_ptr.h \
- /home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/ref \
+ /home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/ref \
  /usr/include/c++/5/cassert /usr/include/assert.h \
  /usr/include/c++/5/cstdlib /usr/include/stdlib.h \
  /usr/include/x86_64-linux-gnu/bits/waitflags.h \
@@ -123,19 +123,23 @@ test_cassegrain.o: test_cassegrain.cc /usr/include/stdc-predef.h \
  /usr/include/x86_64-linux-gnu/bits/select.h \
  /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
+ /usr/include/x86_64-linux-gnu/bits/select2.h \
  /usr/include/x86_64-linux-gnu/sys/sysmacros.h \
  /usr/include/x86_64-linux-gnu/bits/sysmacros.h /usr/include/alloca.h \
+ /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
- /usr/include/c++/5/typeinfo \
- /home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/delegate \
+ /usr/include/x86_64-linux-gnu/bits/stdlib.h /usr/include/c++/5/typeinfo \
+ /home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/delegate \
  /usr/include/c++/5/iostream /usr/include/c++/5/istream \
  /usr/include/c++/5/bits/istream.tcc \
- /home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/fstring \
+ /home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/fstring \
  /usr/include/stdio.h /usr/include/x86_64-linux-gnu/bits/libio.h \
  /usr/include/x86_64-linux-gnu/bits/_G_config.h \
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
  /usr/include/x86_64-linux-gnu/bits/sys_errlist.h \
- /home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/vlarray \
+ /usr/include/x86_64-linux-gnu/bits/stdio.h \
+ /usr/include/x86_64-linux-gnu/bits/stdio2.h \
+ /home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/vlarray \
  /usr/lib/gcc/x86_64-linux-gnu/5/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h /usr/include/math.h \
  /usr/include/x86_64-linux-gnu/bits/math-vector.h \
@@ -146,72 +150,73 @@ test_cassegrain.o: test_cassegrain.cc /usr/include/stdc-predef.h \
  /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
  /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
  /usr/include/x86_64-linux-gnu/bits/iscanonical.h \
- /home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Math/vector.hxx \
- /home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Math/matrix.hh \
- /home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Sys/System \
- /home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Sys/system.hh \
- /home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Sys/element.hh \
- /home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Math/transform.hh \
- /home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Math/vector_pair.hh \
- /home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/error.hh \
- /home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Math/quaternion.hh \
- /home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Sys/container.hh \
- /home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Trace/params.hh \
- /home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Trace/result.hh \
+ /usr/include/x86_64-linux-gnu/bits/mathinline.h \
+ /home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Math/vector.hxx \
+ /home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Math/matrix.hh \
+ /home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Sys/System \
+ /home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Sys/system.hh \
+ /home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Sys/element.hh \
+ /home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Math/transform.hh \
+ /home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Math/vector_pair.hh \
+ /home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/error.hh \
+ /home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Math/quaternion.hh \
+ /home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Sys/container.hh \
+ /home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Trace/params.hh \
+ /home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Trace/result.hh \
  /usr/include/c++/5/set /usr/include/c++/5/bits/stl_set.h \
  /usr/include/c++/5/bits/stl_multiset.h \
- /home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Sys/surface.hh \
- /home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Shape/base.hh \
- /home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Math/triangle.hh \
- /home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Curve/base.hh \
- /home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Trace/ray.hh \
- /home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Light/ray.hh \
- /home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Trace/distribution.hh \
- /home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Trace/sequence.hh \
- /home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Material/proxy.hh \
- /home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Material/base.hh \
- /home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Sys/system.hxx \
- /home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Sys/element.hxx \
- /home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Math/transform.hxx \
- /home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Math/vector_pair.hxx \
- /home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Math/matrix.hxx \
- /home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Math/quaternion.hxx \
- /home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Sys/container.hxx \
- /home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Trace/params.hxx \
- /home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Trace/result.hxx \
- /home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Sys/surface.hxx \
- /home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Shape/base.hxx \
- /home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Curve/base.hxx \
- /home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Trace/ray.hxx \
+ /home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Sys/surface.hh \
+ /home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Shape/base.hh \
+ /home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Math/triangle.hh \
+ /home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Curve/base.hh \
+ /home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Trace/ray.hh \
+ /home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Light/ray.hh \
+ /home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Trace/distribution.hh \
+ /home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Trace/sequence.hh \
+ /home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Material/proxy.hh \
+ /home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Material/base.hh \
+ /home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Sys/system.hxx \
+ /home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Sys/element.hxx \
+ /home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Math/transform.hxx \
+ /home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Math/vector_pair.hxx \
+ /home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Math/matrix.hxx \
+ /home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Math/quaternion.hxx \
+ /home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Sys/container.hxx \
+ /home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Trace/params.hxx \
+ /home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Trace/result.hxx \
+ /home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Sys/surface.hxx \
+ /home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Shape/base.hxx \
+ /home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Curve/base.hxx \
+ /home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Trace/ray.hxx \
  /usr/include/c++/5/limits \
- /home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Light/ray.hxx \
- /home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Trace/distribution.hxx \
- /home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Trace/sequence.hxx \
- /home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Material/proxy.hxx \
- /home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Material/base.hxx \
- /home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Sys/SourcePoint \
- /home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Sys/source_point.hh \
- /home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Sys/source.hh \
- /home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Light/spectral_line.hh \
- /home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Io/rgb.hh \
- /home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Material/base.hh \
- /home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Sys/source_point.hxx \
- /home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Sys/source.hxx \
+ /home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Light/ray.hxx \
+ /home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Trace/distribution.hxx \
+ /home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Trace/sequence.hxx \
+ /home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Material/proxy.hxx \
+ /home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Material/base.hxx \
+ /home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Sys/SourcePoint \
+ /home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Sys/source_point.hh \
+ /home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Sys/source.hh \
+ /home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Light/spectral_line.hh \
+ /home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Io/rgb.hh \
+ /home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Material/base.hh \
+ /home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Sys/source_point.hxx \
+ /home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Sys/source.hxx \
  /usr/include/c++/5/algorithm /usr/include/c++/5/utility \
  /usr/include/c++/5/bits/stl_relops.h /usr/include/c++/5/bits/stl_algo.h \
  /usr/include/c++/5/bits/algorithmfwd.h \
  /usr/include/c++/5/bits/stl_heap.h \
- /home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Light/spectral_line.hxx \
- /home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Material/base.hxx \
+ /home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Light/spectral_line.hxx \
+ /home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Material/base.hxx \
  ../src/Goptical/Design/Telescope/Cassegrain \
  ../src/Goptical/Design/Telescope/cassegrain.hh \
- /home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Sys/mirror.hh \
- /home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Sys/optical_surface.hh \
- /home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Material/air.hh \
- /home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Shape/infinite.hh \
- /home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Shape/base.hh \
- /home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Curve/flat.hh \
- /home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Curve/rotational.hh \
+ /home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Sys/mirror.hh \
+ /home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Sys/optical_surface.hh \
+ /home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Material/air.hh \
+ /home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Shape/infinite.hh \
+ /home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Shape/base.hh \
+ /home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Curve/flat.hh \
+ /home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Curve/rotational.hh \
  /usr/include/gsl/gsl_deriv.h /usr/include/gsl/gsl_math.h \
  /usr/include/gsl/gsl_sys.h /usr/include/gsl/gsl_inline.h \
  /usr/include/gsl/gsl_machine.h \
@@ -227,59 +232,59 @@ test_cassegrain.o: test_cassegrain.cc /usr/include/stdc-predef.h \
  /usr/include/gsl/gsl_precision.h /usr/include/gsl/gsl_types.h \
  /usr/include/gsl/gsl_nan.h /usr/include/gsl/gsl_pow_int.h \
  /usr/include/gsl/gsl_minmax.h \
- /home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Curve/base.hh \
- /home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Material/mirror.hh \
- /home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Shape/disk.hh \
- /home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Shape/shape_round.hh \
- /home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Shape/ring.hh \
- /home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Curve/conic.hh \
- /home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Curve/conic_base.hh \
- /home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Curve/curve_roc.hh \
+ /home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Curve/base.hh \
+ /home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Material/mirror.hh \
+ /home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Shape/disk.hh \
+ /home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Shape/shape_round.hh \
+ /home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Shape/ring.hh \
+ /home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Curve/conic.hh \
+ /home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Curve/conic_base.hh \
+ /home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Curve/curve_roc.hh \
  ../src/Goptical/Design/Telescope/telescope.hh \
  ../src/Goptical/Design/common.hh \
- /home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Sys/group.hh \
+ /home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Sys/group.hh \
  ../src/Goptical/Design/Telescope/cassegrain.hxx \
- /home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Sys/mirror.hxx \
- /home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Sys/optical_surface.hxx \
- /home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Shape/disk.hxx \
- /home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Shape/base.hxx \
- /home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Shape/ring.hxx \
- /home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Curve/conic.hxx \
- /home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Curve/conic_base.hxx \
- /home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Curve/rotational.hxx \
- /home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Curve/base.hxx \
- /home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Curve/curve_roc.hxx \
+ /home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Sys/mirror.hxx \
+ /home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Sys/optical_surface.hxx \
+ /home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Shape/disk.hxx \
+ /home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Shape/base.hxx \
+ /home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Shape/ring.hxx \
+ /home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Curve/conic.hxx \
+ /home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Curve/conic_base.hxx \
+ /home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Curve/rotational.hxx \
+ /home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Curve/base.hxx \
+ /home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Curve/curve_roc.hxx \
  ../src/Goptical/Design/Telescope/telescope.hxx \
- /home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Sys/group.hxx \
- /home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Sys/Image \
- /home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Sys/image.hh \
- /home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Sys/image.hxx \
- /home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Trace/Tracer \
- /home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Trace/tracer.hh \
- /home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Trace/tracer.hxx \
- /home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Trace/Result \
- /home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Trace/Distribution \
- /home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Trace/Params \
- /home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Trace/Sequence \
- /home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Io/RendererSvg \
- /home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Io/renderer_svg.hh \
+ /home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Sys/group.hxx \
+ /home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Sys/Image \
+ /home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Sys/image.hh \
+ /home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Sys/image.hxx \
+ /home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Trace/Tracer \
+ /home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Trace/tracer.hh \
+ /home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Trace/tracer.hxx \
+ /home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Trace/Result \
+ /home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Trace/Distribution \
+ /home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Trace/Params \
+ /home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Trace/Sequence \
+ /home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Io/RendererSvg \
+ /home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Io/renderer_svg.hh \
  /usr/include/c++/5/sstream /usr/include/c++/5/bits/sstream.tcc \
- /home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Io/renderer_2d.hh \
- /home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Io/renderer_viewport.hh \
- /home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Io/renderer.hh \
- /home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Io/renderer_svg.hxx \
- /home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Io/renderer_2d.hxx \
- /home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Io/renderer_viewport.hxx \
- /home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Io/renderer.hxx \
- /home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Math/triangle.hxx \
- /home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Io/rgb.hxx \
- /home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Io/RendererViewport
+ /home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Io/renderer_2d.hh \
+ /home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Io/renderer_viewport.hh \
+ /home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Io/renderer.hh \
+ /home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Io/renderer_svg.hxx \
+ /home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Io/renderer_2d.hxx \
+ /home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Io/renderer_viewport.hxx \
+ /home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Io/renderer.hxx \
+ /home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Math/triangle.hxx \
+ /home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Io/rgb.hxx \
+ /home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Io/RendererViewport
 
 /usr/include/stdc-predef.h:
 
-/home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Math/Vector:
+/home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Math/Vector:
 
-/home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Math/vector.hh:
+/home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Math/vector.hh:
 
 /usr/include/c++/5/ostream:
 
@@ -340,6 +345,8 @@ test_cassegrain.o: test_cassegrain.cc /usr/include/stdc-predef.h \
 /usr/include/x86_64-linux-gnu/bits/types/locale_t.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/wchar2.h:
 
 /usr/include/c++/5/exception:
 
@@ -511,7 +518,7 @@ test_cassegrain.o: test_cassegrain.cc /usr/include/stdc-predef.h \
 
 /usr/include/c++/5/bits/ostream.tcc:
 
-/home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/common.hh:
+/home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/common.hh:
 
 /usr/include/c++/5/list:
 
@@ -545,7 +552,7 @@ test_cassegrain.o: test_cassegrain.cc /usr/include/stdc-predef.h \
 
 /usr/include/c++/5/bits/deque.tcc:
 
-/home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/vector_pool:
+/home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/vector_pool:
 
 /usr/include/c++/5/memory:
 
@@ -555,7 +562,7 @@ test_cassegrain.o: test_cassegrain.cc /usr/include/stdc-predef.h \
 
 /usr/include/c++/5/backward/auto_ptr.h:
 
-/home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/ref:
+/home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/ref:
 
 /usr/include/c++/5/cassert:
 
@@ -581,17 +588,23 @@ test_cassegrain.o: test_cassegrain.cc /usr/include/stdc-predef.h \
 
 /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h:
 
+/usr/include/x86_64-linux-gnu/bits/select2.h:
+
 /usr/include/x86_64-linux-gnu/sys/sysmacros.h:
 
 /usr/include/x86_64-linux-gnu/bits/sysmacros.h:
 
 /usr/include/alloca.h:
 
+/usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h:
+
 /usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdlib.h:
 
 /usr/include/c++/5/typeinfo:
 
-/home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/delegate:
+/home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/delegate:
 
 /usr/include/c++/5/iostream:
 
@@ -599,7 +612,7 @@ test_cassegrain.o: test_cassegrain.cc /usr/include/stdc-predef.h \
 
 /usr/include/c++/5/bits/istream.tcc:
 
-/home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/fstring:
+/home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/fstring:
 
 /usr/include/stdio.h:
 
@@ -611,7 +624,11 @@ test_cassegrain.o: test_cassegrain.cc /usr/include/stdc-predef.h \
 
 /usr/include/x86_64-linux-gnu/bits/sys_errlist.h:
 
-/home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/vlarray:
+/usr/include/x86_64-linux-gnu/bits/stdio.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:
+
+/home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/vlarray:
 
 /usr/lib/gcc/x86_64-linux-gnu/5/include/stdint.h:
 
@@ -637,29 +654,31 @@ test_cassegrain.o: test_cassegrain.cc /usr/include/stdc-predef.h \
 
 /usr/include/x86_64-linux-gnu/bits/iscanonical.h:
 
-/home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Math/vector.hxx:
+/usr/include/x86_64-linux-gnu/bits/mathinline.h:
 
-/home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Math/matrix.hh:
+/home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Math/vector.hxx:
 
-/home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Sys/System:
+/home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Math/matrix.hh:
 
-/home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Sys/system.hh:
+/home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Sys/System:
 
-/home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Sys/element.hh:
+/home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Sys/system.hh:
 
-/home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Math/transform.hh:
+/home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Sys/element.hh:
 
-/home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Math/vector_pair.hh:
+/home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Math/transform.hh:
 
-/home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/error.hh:
+/home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Math/vector_pair.hh:
 
-/home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Math/quaternion.hh:
+/home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/error.hh:
 
-/home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Sys/container.hh:
+/home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Math/quaternion.hh:
 
-/home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Trace/params.hh:
+/home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Sys/container.hh:
 
-/home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Trace/result.hh:
+/home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Trace/params.hh:
+
+/home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Trace/result.hh:
 
 /usr/include/c++/5/set:
 
@@ -667,79 +686,79 @@ test_cassegrain.o: test_cassegrain.cc /usr/include/stdc-predef.h \
 
 /usr/include/c++/5/bits/stl_multiset.h:
 
-/home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Sys/surface.hh:
+/home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Sys/surface.hh:
 
-/home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Shape/base.hh:
+/home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Shape/base.hh:
 
-/home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Math/triangle.hh:
+/home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Math/triangle.hh:
 
-/home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Curve/base.hh:
+/home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Curve/base.hh:
 
-/home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Trace/ray.hh:
+/home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Trace/ray.hh:
 
-/home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Light/ray.hh:
+/home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Light/ray.hh:
 
-/home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Trace/distribution.hh:
+/home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Trace/distribution.hh:
 
-/home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Trace/sequence.hh:
+/home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Trace/sequence.hh:
 
-/home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Material/proxy.hh:
+/home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Material/proxy.hh:
 
-/home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Material/base.hh:
+/home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Material/base.hh:
 
-/home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Sys/system.hxx:
+/home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Sys/system.hxx:
 
-/home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Sys/element.hxx:
+/home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Sys/element.hxx:
 
-/home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Math/transform.hxx:
+/home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Math/transform.hxx:
 
-/home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Math/vector_pair.hxx:
+/home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Math/vector_pair.hxx:
 
-/home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Math/matrix.hxx:
+/home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Math/matrix.hxx:
 
-/home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Math/quaternion.hxx:
+/home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Math/quaternion.hxx:
 
-/home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Sys/container.hxx:
+/home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Sys/container.hxx:
 
-/home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Trace/params.hxx:
+/home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Trace/params.hxx:
 
-/home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Trace/result.hxx:
+/home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Trace/result.hxx:
 
-/home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Sys/surface.hxx:
+/home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Sys/surface.hxx:
 
-/home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Shape/base.hxx:
+/home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Shape/base.hxx:
 
-/home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Curve/base.hxx:
+/home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Curve/base.hxx:
 
-/home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Trace/ray.hxx:
+/home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Trace/ray.hxx:
 
 /usr/include/c++/5/limits:
 
-/home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Light/ray.hxx:
+/home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Light/ray.hxx:
 
-/home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Trace/distribution.hxx:
+/home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Trace/distribution.hxx:
 
-/home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Trace/sequence.hxx:
+/home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Trace/sequence.hxx:
 
-/home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Material/proxy.hxx:
+/home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Material/proxy.hxx:
 
-/home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Material/base.hxx:
+/home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Material/base.hxx:
 
-/home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Sys/SourcePoint:
+/home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Sys/SourcePoint:
 
-/home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Sys/source_point.hh:
+/home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Sys/source_point.hh:
 
-/home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Sys/source.hh:
+/home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Sys/source.hh:
 
-/home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Light/spectral_line.hh:
+/home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Light/spectral_line.hh:
 
-/home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Io/rgb.hh:
+/home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Io/rgb.hh:
 
-/home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Material/base.hh:
+/home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Material/base.hh:
 
-/home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Sys/source_point.hxx:
+/home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Sys/source_point.hxx:
 
-/home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Sys/source.hxx:
+/home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Sys/source.hxx:
 
 /usr/include/c++/5/algorithm:
 
@@ -753,27 +772,27 @@ test_cassegrain.o: test_cassegrain.cc /usr/include/stdc-predef.h \
 
 /usr/include/c++/5/bits/stl_heap.h:
 
-/home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Light/spectral_line.hxx:
+/home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Light/spectral_line.hxx:
 
-/home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Material/base.hxx:
+/home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Material/base.hxx:
 
 ../src/Goptical/Design/Telescope/Cassegrain:
 
 ../src/Goptical/Design/Telescope/cassegrain.hh:
 
-/home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Sys/mirror.hh:
+/home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Sys/mirror.hh:
 
-/home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Sys/optical_surface.hh:
+/home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Sys/optical_surface.hh:
 
-/home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Material/air.hh:
+/home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Material/air.hh:
 
-/home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Shape/infinite.hh:
+/home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Shape/infinite.hh:
 
-/home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Shape/base.hh:
+/home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Shape/base.hh:
 
-/home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Curve/flat.hh:
+/home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Curve/flat.hh:
 
-/home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Curve/rotational.hh:
+/home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Curve/rotational.hh:
 
 /usr/include/gsl/gsl_deriv.h:
 
@@ -815,98 +834,98 @@ test_cassegrain.o: test_cassegrain.cc /usr/include/stdc-predef.h \
 
 /usr/include/gsl/gsl_minmax.h:
 
-/home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Curve/base.hh:
+/home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Curve/base.hh:
 
-/home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Material/mirror.hh:
+/home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Material/mirror.hh:
 
-/home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Shape/disk.hh:
+/home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Shape/disk.hh:
 
-/home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Shape/shape_round.hh:
+/home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Shape/shape_round.hh:
 
-/home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Shape/ring.hh:
+/home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Shape/ring.hh:
 
-/home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Curve/conic.hh:
+/home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Curve/conic.hh:
 
-/home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Curve/conic_base.hh:
+/home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Curve/conic_base.hh:
 
-/home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Curve/curve_roc.hh:
+/home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Curve/curve_roc.hh:
 
 ../src/Goptical/Design/Telescope/telescope.hh:
 
 ../src/Goptical/Design/common.hh:
 
-/home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Sys/group.hh:
+/home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Sys/group.hh:
 
 ../src/Goptical/Design/Telescope/cassegrain.hxx:
 
-/home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Sys/mirror.hxx:
+/home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Sys/mirror.hxx:
 
-/home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Sys/optical_surface.hxx:
+/home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Sys/optical_surface.hxx:
 
-/home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Shape/disk.hxx:
+/home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Shape/disk.hxx:
 
-/home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Shape/base.hxx:
+/home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Shape/base.hxx:
 
-/home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Shape/ring.hxx:
+/home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Shape/ring.hxx:
 
-/home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Curve/conic.hxx:
+/home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Curve/conic.hxx:
 
-/home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Curve/conic_base.hxx:
+/home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Curve/conic_base.hxx:
 
-/home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Curve/rotational.hxx:
+/home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Curve/rotational.hxx:
 
-/home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Curve/base.hxx:
+/home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Curve/base.hxx:
 
-/home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Curve/curve_roc.hxx:
+/home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Curve/curve_roc.hxx:
 
 ../src/Goptical/Design/Telescope/telescope.hxx:
 
-/home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Sys/group.hxx:
+/home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Sys/group.hxx:
 
-/home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Sys/Image:
+/home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Sys/Image:
 
-/home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Sys/image.hh:
+/home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Sys/image.hh:
 
-/home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Sys/image.hxx:
+/home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Sys/image.hxx:
 
-/home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Trace/Tracer:
+/home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Trace/Tracer:
 
-/home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Trace/tracer.hh:
+/home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Trace/tracer.hh:
 
-/home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Trace/tracer.hxx:
+/home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Trace/tracer.hxx:
 
-/home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Trace/Result:
+/home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Trace/Result:
 
-/home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Trace/Distribution:
+/home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Trace/Distribution:
 
-/home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Trace/Params:
+/home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Trace/Params:
 
-/home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Trace/Sequence:
+/home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Trace/Sequence:
 
-/home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Io/RendererSvg:
+/home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Io/RendererSvg:
 
-/home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Io/renderer_svg.hh:
+/home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Io/renderer_svg.hh:
 
 /usr/include/c++/5/sstream:
 
 /usr/include/c++/5/bits/sstream.tcc:
 
-/home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Io/renderer_2d.hh:
+/home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Io/renderer_2d.hh:
 
-/home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Io/renderer_viewport.hh:
+/home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Io/renderer_viewport.hh:
 
-/home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Io/renderer.hh:
+/home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Io/renderer.hh:
 
-/home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Io/renderer_svg.hxx:
+/home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Io/renderer_svg.hxx:
 
-/home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Io/renderer_2d.hxx:
+/home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Io/renderer_2d.hxx:
 
-/home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Io/renderer_viewport.hxx:
+/home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Io/renderer_viewport.hxx:
 
-/home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Io/renderer.hxx:
+/home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Io/renderer.hxx:
 
-/home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Math/triangle.hxx:
+/home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Math/triangle.hxx:
 
-/home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Io/rgb.hxx:
+/home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Io/rgb.hxx:
 
-/home/data/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Io/RendererViewport:
+/home/code/ThirdPartyLibs/goptical-1.0/goptical_core/src/Goptical/Io/RendererViewport:
