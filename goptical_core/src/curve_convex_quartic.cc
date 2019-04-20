@@ -39,7 +39,7 @@ ConvexQuartic::ConvexQuartic(double a2, double a4)
     _a2=a2;
     _a4=a4;
     assert(a4!=0);
-    assert(a2*a4>=0);
+    //assert(a2*a4>=0);
 }
 
 double ConvexQuartic::sagitta(double r) const
